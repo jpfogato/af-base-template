@@ -1,0 +1,22 @@
+Folder naming is important
+Root folder:
+.\docs
+.\docs\custom_errors.txt
+.\files
+.\source
+readme.txt
+
+General (LV):
+Use spaced names so its easier with crlt+space+k to craft icons
+
+Template actor:
+Required overrides inside VIs that are not dynamic dispatch
+Typdefs as private instead of protected
+Accessors for base class must be overridable
+Need typedefs for Actor Events, State Machine Control and FP References
+Write error handling strategy and derive from it
+Use map to keep track of nested actors
+Actor core must be a required override
+Create template up to 90%, then create error handling actor, return to template and finish it. Only then, derive to other required actors
+No need for error testing button
+Do not use error ring
