@@ -1,1 +1,3 @@
 50000: test error
+50001: Error reading the Actor's Data DVR queue
+50002: Error enqueue the Actor's Data DVR to the DVR pool
