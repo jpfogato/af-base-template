@@ -1,15 +1,14 @@
 Application Handling
 Create actor restarting logic defined by the process error bahavior
 
-
 Datalogging
-Create message upstreaming method to send EDVR queues reference to root actor
-Register EDVR pools in the root actor
-Find Data Writing Plugin and send the EDVR queues to the actor to handle inside the Read Data override
-Custom error in case of EDVR queue timeout
+Create message upstreaming method to send DVR queues reference to root actor
+Register DVR pools in the root actor
+Find Data Writing Plugin and send the DVR queues to the actor to handle inside the Read Data override
 
 Base Actor Data
 Add boolean control to ActorConfiguration to determine if sensor data should be collected and saved
+Updade Base Actor data based on settings changes
 
 Actor Template
 Add sensor data processing and saving in JSON formatting
