@@ -4,8 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="fire error object Msg.lvclass" Type="LVClass" URL="../../Template Messages/fire error object Msg/fire error object Msg.lvclass"/>
 		<Item Name="interrupt routine Msg.lvclass" Type="LVClass" URL="../../Template Messages/interrupt routine Msg/interrupt routine Msg.lvclass"/>
 		<Item Name="launch nested actors Msg.lvclass" Type="LVClass" URL="../../Template Messages/launch nested actors Msg/launch nested actors Msg.lvclass"/>
+		<Item Name="process error Msg.lvclass" Type="LVClass" URL="../../Template Messages/process error Msg/process error Msg.lvclass"/>
 		<Item Name="update actor configuration Msg.lvclass" Type="LVClass" URL="../../Template Messages/update actor configuration Msg/update actor configuration Msg.lvclass"/>
 	</Item>
 	<Item Name="Template.lvclass" Type="LVClass" URL="../Template.lvclass"/>
