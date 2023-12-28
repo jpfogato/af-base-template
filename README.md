@@ -1,5 +1,9 @@
-# af-base-template
-LabVIEW Template based on the actor framework for data logging and control applications
+# Actor Framework Base Actor Template
+LabVIEW Template based on the actor framework for data logging and control applications.
+It implements a generic actor that can be copied many times over and serve multiple purposes with minimal code update by overriding only the "required overrides" defined by the parent class.
+If all of the actors of the application share the same Base Actor Template, the error handling and data transporting layer is already implemented by the parent class and what's left to be done is the specific implementation of the class.
+The application launches a root actor that keeps track of every module launched (which are essentially copies of itself). In these modules, specific implementation is executed (i.e.: Data Writing, Error Handling, User Interface Management, Data Acquisition, Control, etc.), but they all share the essential interfaces required for proper execution of the main routines (data sharing and error handling).  
+Each submodule also implements its own user interface for data visualization and settings definition and its own configuration file. These configuration files can be udpated while the application is running.
 
 # Required VIPM Packages
 * JSONtext v1.6.10.113 by JDP Science
@@ -39,7 +43,7 @@ The error flow is described below:
 6. a. If this actor is the root actor:  
 * Searches in the nested actors map for any actor containing __'error'__ in its name.
   * If error actor is found, sends "process error.vi" interface override message to it.
-  * if error actpr is **not** found, sends "process error.vi" interface override message to **itself**   
+  * if error actor is **not** found, sends "process error.vi" interface override message to **itself**   
 6. b. If this actor is **not** the root actor:  
 * Executes "share error upstream.vi" that reads the caller enqueue and sends the message: "fire error object.vi"
 * "fire error object.vi" triggers the "New Error" user event in the caller's actor core.
