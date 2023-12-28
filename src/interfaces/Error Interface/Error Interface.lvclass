@@ -9,12 +9,12 @@
 	<Property Name="NI.LVClass.IsInterface" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Item Name="process error.vi" Type="VI" URL="../process error.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;6!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%R!=!!?!!!P&amp;56S=G^S)%FO&gt;'6S:G&amp;D:3ZM&gt;GRJ9B&gt;&amp;=H*P=C"*&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=Q!428*S&lt;X)A37ZU:8*G97.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!P&amp;56S=G^S)%FO&gt;'6S:G&amp;D:3ZM&gt;GRJ9B&gt;&amp;=H*P=C"*&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=Q!328*S&lt;X)A37ZU:8*G97.F)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$I!!!!"!!%!!!!0%"Q!"Y!!#5628*S&lt;X)A37ZU:8*G97.F,GRW&lt;'FC$56S=G^S,GRW9WRB=X-!$%6S=G^S)%^C;G6D&gt;!!!4%"Q!"Y!!#]628*S&lt;X)A37ZU:8*G97.F,GRW&lt;'FC&amp;U6S=G^S)%FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!"*&amp;=H*P=C"*&lt;H2F=G:B9W5A;7Y!!&amp;1!]!!-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!#!A!!?!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!#1!!!!!!%!!Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 </LVClass>

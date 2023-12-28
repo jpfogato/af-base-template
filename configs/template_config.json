@@ -1,0 +1,15 @@
+{
+  "GlobalConfiguration":{
+    "DeviceFamily":"Camera",
+    "WriteData":true,
+    "BufferSize_samples":200,
+    "SyncDevice":true,
+    "ExecuteInterruptRoutine":true,
+    "InterruptRoutineTimeout_ms":200
+  },
+  "DeviceConfiguration":{
+    "DeviceSpecificName":"Model_XPTO",
+    "HardwareReference":"PXI-Slot2",
+    "UsedResources":[]
+  }
+}

@@ -2,4 +2,5 @@
 LabVIEW Template based on the actor framework for datalogging and control applications
 
 ## Required VIPM Packages
-JKI JSON v1.1.10.37 vipm://jki_lib_json_serialization?version=1.1.10.37
+JSONtext v1.6.10.113 by JDP Science
+OpenG File Library v4.0.1.22 by OpenG.org
