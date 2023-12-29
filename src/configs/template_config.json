@@ -1,0 +1,15 @@
+{
+  "GlobalConfiguration":{
+    "DeviceFamily":"Default",
+    "WriteData":false,
+    "BufferSize_samples":0,
+    "SyncDevice":false,
+    "ExecuteInterruptRoutine":false,
+    "InterruptRoutineTimeout_ms":0
+  },
+  "DeviceConfiguration":{
+    "DeviceSpecificName":"Default",
+    "HardwareReference":"Default",
+    "UsedResources":[]
+  }
+}

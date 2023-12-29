@@ -16,10 +16,11 @@
 			<Item Name="todo.txt" Type="Document" URL="../docs/todo.txt"/>
 		</Item>
 		<Item Name="interfaces" Type="Folder">
-			<Item Name="Data Writer Interface.lvlib" Type="Library" URL="../src/interfaces/Data Writer Interface/Data Writer Interface.lvlib"/>
-			<Item Name="Error Interface.lvlib" Type="Library" URL="../src/interfaces/Error Interface/Error Interface.lvlib"/>
+			<Item Name="Data Writer Interface.lvlib" Type="Library" URL="../interfaces/Data Writer Interface/Data Writer Interface.lvlib"/>
+			<Item Name="Error Interface.lvlib" Type="Library" URL="../interfaces/Error Interface/Error Interface.lvlib"/>
 		</Item>
-		<Item Name="Template.lvlib" Type="Library" URL="../src/actors/template/Template.lvlib"/>
+		<Item Name="launcher.vi" Type="VI" URL="../launcher/launcher.vi"/>
+		<Item Name="Template.lvlib" Type="Library" URL="../actors/template/Template.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Path - File Names and Paths Arrays - path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Build Path - File Names and Paths Arrays - path__ogtk.vi"/>
@@ -78,6 +79,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -87,7 +89,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="Dummy Actor Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/MessageMakerProvider/_Message Maker/_templates/Message Template/Dummy Actor Method.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
