@@ -18,7 +18,7 @@ The data content is defined as follows:
 - Header: array of 145 bytes comprised of
   - Priority: 1 byte (0: Act immediately and report errors, 1: Act immediately but disregard errors, 2: Do not process)
   - Timestamp: 16 bytes
- - Metadata: Reserved for specific use, 128 bytes
+  - Metadata: Reserved for specific use, 128 bytes
 - Data: Variable size bite array
 - Footer: Reserved for specific use, 128 bytes
 
