@@ -11,9 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="docs" Type="Folder">
-			<Item Name="custom_errors.txt" Type="Document" URL="../docs/custom_errors.txt"/>
-			<Item Name="README.md" Type="Document" URL="../README.md"/>
-			<Item Name="todo.txt" Type="Document" URL="../docs/todo.txt"/>
+			<Item Name="custom_errors.txt" Type="Document" URL="../../docs/custom_errors.txt"/>
+			<Item Name="lessons_learned.txt" Type="Document" URL="../../docs/lessons_learned.txt"/>
+			<Item Name="todo.txt" Type="Document" URL="../../docs/todo.txt"/>
 		</Item>
 		<Item Name="interfaces" Type="Folder">
 			<Item Name="Data Writer Interface.lvlib" Type="Library" URL="../interfaces/Data Writer Interface/Data Writer Interface.lvlib"/>
@@ -94,6 +94,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="Dummy Actor Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/MessageMakerProvider/_Message Maker/_templates/Message Template/Dummy Actor Method.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>

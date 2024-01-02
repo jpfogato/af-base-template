@@ -1,15 +1,51 @@
 {
   "GlobalConfiguration":{
-    "DeviceFamily":"Default",
+    "DeviceFamily":"DeviceFamily",
     "WriteData":false,
-    "BufferSize_samples":0,
+    "BufferSize_samples":-1,
     "SyncDevice":false,
     "ExecuteInterruptRoutine":false,
-    "InterruptRoutineTimeout_ms":0
+    "InterruptRoutineTimeout_ms":-1
   },
   "DeviceConfiguration":{
-    "DeviceSpecificName":"Default",
-    "HardwareReference":"Default",
-    "UsedResources":[]
+    "DeviceSpecificName":"MIPI_Camera",
+    "HardwareReference":"PXIe-Slot2",
+    "UsedResources":[
+      {
+        "ResourceLocation":"ABC",
+        "":{
+          "Sample Boolean Data":true,
+          "Sample Numeric Data":0
+        }
+      },
+      {
+        "ResourceLocation":"DEF",
+        "":{
+          "Sample Boolean Data":false,
+          "Sample Numeric Data":1
+        }
+      },
+      {
+        "ResourceLocation":"GHI",
+        "":{
+          "Sample Boolean Data":true,
+          "Sample Numeric Data":2
+        }
+      },
+      {
+        "ResourceLocation":"JKL",
+        "":{
+          "Sample Boolean Data":false,
+          "Sample Numeric Data":3
+        }
+      },
+      {
+        "ResourceLocation":"MNO",
+        "":{
+          "Sample Boolean Data":true,
+          "Sample Numeric Data":4
+        }
+      }
+    ]
   }
 }
