@@ -9,6 +9,7 @@ Read plugin version
 
 Synchronization
 Sending hardware trigger
+Wait all actors functionality
 
 Datalogging
 Create message upstream method to send DVR queues reference to root actor

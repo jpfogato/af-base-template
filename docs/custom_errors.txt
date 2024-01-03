@@ -3,3 +3,5 @@
 50002: Error enqueue the Actor's Data DVR to the DVR pool
 50003: Error while reading the path for the configuration file
 50004: Timed out while trying to enqueue DVR into the DVR Pool for caller
+50005: Data validation error. Received data package is invalid
+50006: Error enqueuing actor's UI for actor 0. Actor# :
